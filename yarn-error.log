@@ -1,0 +1,45 @@
+Arguments: 
+  D:\nodejs\node.exe D:\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;d:\Program Files\Git\cmd;D:\Yarn\bin;D:\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\MongoDB\Server\3.4\bin;C:\Users\Administrator\AppData\Local\atom\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.4.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "spider",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "body-parser": "~1.17.1",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.3",
+      "ejs": "~2.5.6",
+      "express": "~4.15.2",
+      "morgan": "~1.8.1",
+      "serve-favicon": "~2.4.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.62.173:443
+      at Object._errnoException (util.js:1041:11)
+      at _exceptionWithHostPort (util.js:1064:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1153:14)
