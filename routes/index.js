@@ -101,8 +101,6 @@ router.get('/async', (req, res) => {
       console.log('final');
       console.log(result);
     })
-
-
   })
   .catch((err)=>console.log(err));
 });
