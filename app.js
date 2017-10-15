@@ -1,4 +1,5 @@
 const express = require('express');
+//const favicon = require('serve-favicon');
 
 const path = require('path');
 const logger = require('morgan');
@@ -43,4 +44,5 @@ app.use(function(err, req, res) {
   res.render('error');
 });
 
+console.log('sever run on localhost:3000');
 module.exports = app;
